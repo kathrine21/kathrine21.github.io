@@ -1,0 +1,140 @@
+@font-face{font-family:'Segoe Script';src:url(../fonts/SegoeScript.woff2) format('woff2'),url(../fonts/SegoeScript.woff) format('woff');font-weight:400;font-style:normal}
+@font-face{font-family:'Segoe UI';src:url(../fonts/SegoeUI.woff2) format('woff2'),url(../fonts/SegoeUI.woff) format('woff');font-weight:400;font-style:normal}
+html{font-size:10px}
+.main{padding:3rem 0}
+.row{margin:0}
+.slick-slide:focus,a:focus,button:focus,input:focus,textarea:focus{outline:0}
+section{height:100rem}
+.container{width:100%}
+.section-header{font-family:'Segoe UI',sans-serif;font-weight:800;margin-right:2rem;padding:5rem;text-align:center;font-size:4rem;text-transform:uppercase;color:#3a3e40}
+.logo{margin:0 10rem;-webkit-transform:translateX(-10rem);transform:translateX(-10rem)}
+.nav-block{font-family:'Segoe UI',sans-serif;font-weight:800;font-size:1.8rem;color:#3a3e40;padding-top:2rem;padding-right:5rem;text-transform:uppercase}
+.nav-item{padding-left:5rem;text-align:center}
+.nav-link:hover{color:#fa5e03!important}
+.nav-link:active{color:#fa5e03!important}
+.navbar{width:100%}
+.navbar-brand{width:10rem}
+.navbar-block{width:1.5rem}
+.navbar-toggler{border:none}
+.navbar-collapse{width:100%;position:static;z-index:70}
+.navbar-img{width:7rem;margin-right:5rem}
+.main{padding:0;width:100%;height:100%;background:url(../img/main-bg.jpg) center center no-repeat;background-size:cover}
+.main-header{font-family:'Segoe Script',sans-serif;font-size:5rem;line-height:10rem;padding:3rem 0}
+.main-button{font-family:'Segoe UI',sans-serif;font-weight:800;font-size:2rem;letter-spacing:.15rem;text-transform:uppercase;padding:1rem 3rem;border-radius:7px;background-color:#fa5e03;border:none;-webkit-transition:all .2s;transition:all .2s}
+.main-button:hover{background-color:#464b4d}
+.main-button-block{padding:20rem 0}
+.main-button-classes{margin-bottom:7rem}
+.main-button-schedule{-webkit-transform:translateY(15rem);transform:translateY(15rem)}
+.main-button-subscribe{display:inline;font-size:1.3rem;color:#fff;width:15.5rem;height:4.5rem;border-radius:0 7px 7px 0}
+.benefits{height:68rem;background:url(../img/benefit_img.jpg) center center no-repeat;background-size:cover}
+.benefits h2{font-size:3rem}
+.benefits-block{font-family:'Segoe UI',sans-serif;font-weight:800;font-size:4.5rem;text-transform:uppercase;color:#3a3e40}
+.benefits-block-1{text-align:center;padding-top:7rem;padding-left:7rem}
+.benefits-block-2{text-align:center;padding-top:7rem;padding-left:10rem}
+.benefits-block-3{text-align:center;padding-top:17rem;padding-right:9rem}
+.benefits-block-4{text-align:center;padding-top:17rem;padding-right:5rem}
+.schedule{background:url(../img/Check_out_bg.jpg) center center no-repeat;background-size:cover;height:65rem;padding-top:0;margin-right:0}
+.schedule-header{font-family:'Segoe UI',sans-serif;font-weight:400;line-height:10rem;padding:7rem 0;margin-right:0}
+.schedule-button{width:25rem;-webkit-transform:translateY(15rem);transform:translateY(15rem)}
+.coaches{height:100%;padding-top:3rem;background-color:#e5e5e5}
+.coaches-block{text-align:center;background-color:#fff;margin:3rem}
+.coaches-block p{font-size:1.5rem;padding:0 3.5rem}
+.coaches-img{width:100%}
+.coaches-img img{display:block;margin:0 auto}
+.coaches-name{font-family:'Segoe UI',sans-serif;font-weight:800;font-size:2.6rem;text-align:center;margin:3rem 0}
+.tryNow{padding:0;height:40rem}
+.tryNow-2{padding:0;-webkit-transform:translateY(-38rem);transform:translateY(-38rem)}
+.tryNow-text{font-family:'Segoe UI',sans-serif;font-weight:800;color:#fff;font-size:2rem;text-align:center;text-transform:uppercase;padding-top:14rem}
+.tryNow-title{font-family:'Segoe UI',sans-serif;font-weight:800;color:#fff;font-size:4.6rem;text-align:center;text-transform:uppercase;padding-bottom:8rem}
+.tryNow-block{width:100%;height:40rem;background:url(../img/Media.jpg) center center no-repeat}
+.tryNow-phone{display:block}
+.tryNow-phone:hover{color:#f29d52!important;text-decoration:none}
+.tryNow-button{width:40rem;-webkit-transform:translateX(45%);transform:translateX(45%)}
+.followUs{height:100%;background-color:#3a3e40}
+.followUs-title{width:20rem;font-size:1.4rem;color:#fff;text-transform:uppercase;text-align:center;padding:3rem 0}
+.followUs-text{font-size:1.2rem;color:#fff;width:12rem;padding-top:3rem;margin:0}
+.followUs-text-subs{width:40rem;line-height:3rem;padding-top:0}
+.followUs-img{width:10rem}
+.followUs-box{margin-left:auto;margin-right:auto}
+.followUs-block{width:33%;display:inline-block;margin-bottom:1rem}
+.followUs-link{font-size:1.2rem;color:#fff;text-decoration:none;margin:1rem 2rem}
+.followUs-link:hover{color:#fa5e03!important;text-decoration:none}
+.followUs-form{width:40rem;padding-top:3.8rem}
+.followUs-btn{width:15rem;height:4.6rem;font-size:1.4rem;padding:0}
+.followUs-network{width:25%;margin-bottom:4rem}
+.form-control{height:4.5rem;font-size:1.5rem;border-radius:7px 0 0 7px}
+.rights{font-size:1.4rem;text-align:center;text-transform:uppercase;color:#fa5e03}
+@media (max-width:1200px){
+.main-header{font-size:4rem;line-height:7rem}
+.benefits h2{font-size:2.5rem}
+.benefits-block-1{padding-left:6rem}
+}
+@media (max-width:991px){
+.logo{margin:1rem 0;-webkit-transform:translateX(-3rem);transform:translateX(-3rem)}
+.navbar-brand{width:20rem}
+.nav-item{padding-left:1rem}
+.main{background-position:75% 0}
+.benefits-header{padding-top:2.5rem}
+.benefits-block-1{width:20rem;padding-top:0;-webkit-transform:translate(-10rem,100%);transform:translate(-10rem,100%)}
+.benefits-block-2{width:20rem;padding-top:0;-webkit-transform:translateX(35rem);transform:translateX(35rem)}
+.benefits-block-3{width:11rem;padding-top:2rem;-webkit-transform:translate(4rem,150%);transform:translate(4rem,150%)}
+.benefits-block-4{width:10rem;padding-top:2rem;padding-right:0;-webkit-transform:translate(14rem,150%);transform:translate(14rem,150%)}
+}
+@media (max-width:767px){
+.logo{margin-right:10rem;margin-left:0}
+.nav-block{margin-left:65%;padding-top:0;width:15rem;height:29.5rem}
+.nav-item{border:2px solid #fa5e03;width:15rem;padding:.5rem 3rem}
+.nav-item-coaches{border-top:none}
+.navbar-nav{position:absolute;background-color:#eaeaea;opacity:.8;padding-right:0}
+.main-header{font-size:3rem}
+.benefits h2{font-size:2rem}
+.benefits-block-1{-webkit-transform:translate(-16rem,100%);transform:translate(-16rem,100%)}
+.benefits-block-2{-webkit-transform:translate(25rem,7%);transform:translate(25rem,7%)}
+.benefits-block-3{-webkit-transform:translate(-9rem,160%);transform:translate(-9rem,160%)}
+.benefits-block-4{-webkit-transform:translate(43rem,50%);transform:translate(43rem,50%)}
+}
+@media (max-width:575px){
+.logo{margin-left:4rem}
+.nav-block{margin-left:55%}
+.navbar-brand{width:10rem}
+.navbar-img{width:10rem}
+.main{background-position:80% 0}
+.main-header{font-size:2.5rem;line-height:4rem;text-align:left;width:100%;padding:3rem}
+.main-button{font-size:1.2rem;width:15rem;margin-left:2rem}
+.main-button-block{-webkit-transform:translateY(5rem);transform:translateY(5rem)}
+.benefits{background-size:200%;background-position:top}
+.benefits h1{font-size:3rem}
+.benefits h2{font-size:1.8rem}
+.benefits-block-1{-webkit-transform:translate(-2rem,-30%);transform:translate(-2rem,-30%)}
+.benefits-block-2{-webkit-transform:translate(22rem,-150%);transform:translate(22rem,-150%)}
+.benefits-block-3{-webkit-transform:translateY(150%);transform:translateY(150%)}
+.benefits-block-4{-webkit-transform:translate(36rem,40%);transform:translate(36rem,40%)}
+}
+@media (max-width:375px){
+.logo{margin-left:3rem;height:8rem;width:8rem}
+.navbar-img{width:8rem}
+.navbar-nav{margin-left:16rem}
+.main-header{font-size:2rem;padding-top:4rem}
+.benefits{background:url(../img/Benefits_mobile.jpg) top no-repeat;background-size:100%}
+.benefits h1{font-size:2rem}
+.benefits-header{padding-top:2rem}
+.benefits-block-1{padding-left:0;width:100%;-webkit-transform:translateX(5rem);transform:translateX(5rem)}
+.benefits-block-2{margin-left:0;padding-left:0;-webkit-transform:translate(2rem,220%);transform:translate(2rem,220%)}
+.benefits-block-3{width:100%;-webkit-transform:translate(8rem,200%);transform:translate(8rem,200%)}
+.benefits-block-3 br{display:none}
+.benefits-block-4{width:100%;-webkit-transform:translate(-4rem,300%);transform:translate(-4rem,300%)}
+.benefits-block-4 br{display:none}
+}
+@media (max-width:320px){
+.navbar-nav{margin-left:10rem}
+.main-header{font-size:1.7rem}
+.benefits h1{font-size:1.7rem}
+.benefits h2{font-size:1.6rem}
+.benefits-header{padding-top:2rem}
+.benefits-block-1{padding-left:0;width:100%;-webkit-transform:translate(4rem,-70%);transform:translate(4rem,-70%)}
+.benefits-block-2{margin-left:0;padding-left:0;-webkit-transform:translate(1rem,180%);transform:translate(1rem,180%)}
+.benefits-block-3{width:100%;-webkit-transform:translate(8rem,150%);transform:translate(8rem,150%)}
+.benefits-block-3 br{display:none}
+.benefits-block-4{width:100%;-webkit-transform:translate(-4rem,200%);transform:translate(-4rem,200%)}
+.benefits-block-4 br{display:none}
+}
